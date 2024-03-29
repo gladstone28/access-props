@@ -1,12 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import './App.css';
+import PropsDisplayer from './PropsDisplayer';
 
 function App() {
-  return (
-    <div className="App">
-<h1>Gladdy</h1>
-    </div>
-  );
+  return <PropsDisplayer />;
 }
 
 export default App;
