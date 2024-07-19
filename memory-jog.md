@@ -34,3 +34,33 @@ props.name
 ```
 This would retrieve the name property from the props object.
 
+### Instructions
+
+Checkpoint 1 Passed
+
+1. Look at PropsDisplayer.js.
+
+This component has props as a part of its parameter.
+
+Inside the function body, there is a stringProps variable which contains the string data of props.
+
+Let’s display it on the screen and see what’s inside by injecting the stringProps variable between the <h2></h2> tags.
+
+The once-empty <h2></h2> will become <h2>{stringProps}</h2> when you’re done with it.
+
+Checkpoint 2 Passed
+
+2. Now that we’ve finished the PropsDisplayer component, let’s use it in our top-level component, App, and have it render to the screen.
+
+Open up App.js. Take a look at the App component definition, and have it return the PropsDisplayer component.
+
+As always, App is exported to index.js and rendered.
+
+The return statement in the App component should return the PropsDisplayer component in a self-closing tag.
+
+Checkpoint 3 Passed
+
+3. Click Run and think about what you see. If you’re seeing an empty object, you’re on the right track. The props object isn’t really empty. It has some properties that JSON.stringify() doesn’t detect. But even if you could see those properties, the props object still wouldn’t have much to show you right now.
+
+Keep going and let’s see what else we need.
+
