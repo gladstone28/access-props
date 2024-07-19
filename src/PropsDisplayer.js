@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function PropsDisplayer(props) {
   const stringProps = JSON.stringify(props);
