@@ -46,6 +46,8 @@ Inside the function body, there is a stringProps variable which contains the str
 
 Let’s display it on the screen and see what’s inside by injecting the stringProps variable between the <h2></h2> tags.
 
+**Hint**
+
 The once-empty <h2></h2> will become <h2>{stringProps}</h2> when you’re done with it.
 
 Checkpoint 2 Passed
@@ -55,6 +57,8 @@ Checkpoint 2 Passed
 Open up App.js. Take a look at the App component definition, and have it return the PropsDisplayer component.
 
 As always, App is exported to index.js and rendered.
+
+**Hint**
 
 The return statement in the App component should return the PropsDisplayer component in a self-closing tag.
 
